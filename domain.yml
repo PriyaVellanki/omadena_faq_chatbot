@@ -1,0 +1,947 @@
+version: "2.0"
+
+intents:
+  - omdena_project_organizations
+  - project_duration
+  - omdena_team_members
+  - join_omdena
+  - ai_product_development_path
+  - Tshering_Tobgay_episode_impACT_podcast
+  - joining_omdena_network
+  - ask_quality_assurance
+  - success_story_omdena_startup_partner
+  - work_with_top_companies_omdena
+  - infrastructure_support_for_projects
+  - support_and_resources
+  - omdena_mycover_project
+  - omdena_blog_categories_and_search
+  - to_listen_impACT_podcast
+  - upcoming_courses_omdena_school
+  - ask_no_ai_experience
+  - vetting_process
+  - omdena_predator_chatbot_project
+  - impact_manager
+  - operational_fee
+  - omdena_local_chapter_lead_growth
+  - recruitment_fee
+  - omdena_upskilling_aim
+  - ask_expertise
+  - access_paid_courses_omdena
+  - omdena_ai_innovation_contribution
+  - omdena_top_talent_project_flexibility
+  - omdena_local_chapter_past_projects
+  - omdena_school_case_studies
+  - support_after_completion
+  - project_execution_process
+  - ask_get_involved
+  - civil_society_government_collaboration
+  - signup_omdena_school_student
+  - Belgian_startup_collaboration
+  - role_of_omdena_local_ai_teams
+  - global_presence
+  - paid_project_gigs_omdena
+  - omdena_completed_projects
+  - financial_support_omdena_school_students
+  - simultaneous_student_instructor_omdena_school
+  - unhcr
+  - become_omdena_chapter_lead
+  - omdena_project_industries
+  - difference_local_challenges_ai_innovation
+  - omdena_project_examples
+  - general_information
+  - Kailash_Satyarthi_episode_impACT_podcast
+  - omdena_reachbots_project
+  - past_projects
+  - number_of_applications
+  - develop_ai_portfolio_omdena
+  - German_startup_collaboration
+  - omdena_community_benefits
+  - omdena_local_chapters
+  - sign_up_for_demo
+  - ask_omdena
+  - omdena_cognifit_project
+  - testimonials_or_reviews
+  - omdena_top_talent_program
+  - submit_local_community_project_ideas
+  - omdena_newsletter
+  - types_of_startups
+  - build_team
+  - omdena_community_growth
+  - cost_and_demo_inquiry
+  - omdena_top_talent_project_types
+  - ongoing_courses_omdena_school
+  - Kenya_based_organization_collaboration
+  - past_case_studies
+  - local_chapter_challenge_chest_disease_detection
+  - ask_participation_assessment
+  - career_acceleration_omdena
+  - notable_leaders_impACT_podcast
+  - omdena_project_community_benefits
+  - data_science_job_market_webinar
+  - become_ai_engineer_omdena
+  - technical_writer_position
+  - post_selection_process
+  - accelerate_innovation_impact
+  - Vishal_Ghote_episode_impACT_podcast
+  - omdena_community_collaboration
+  - omdena_malaria_project
+  - service_inquiry
+  - Canadian_startup_collaboration
+  - apply_for_ongoing_projects
+  - omdena_job_timeline
+  - omdena_school_course_difference
+  - computer_vision_models_webinar
+  - applying_at_omdena
+  - community_development_opportunities
+  - startup_partners
+  - omdena_school
+  - defining_project_scope
+  - submit_project_ideas
+  - omdena_civic_and_business_collaboration
+  - omdena_testimonials
+  - skills_development_omdena_local_chapters
+  - join_omdena_project
+  - omdena_mentoring_support
+  - omdena_latest_blog_posts
+  - omdena_news
+  - omdena_local_chapter_collaborator_benefits
+  - omdena_crop_yield_project
+  - benefits_diverse_teams_omdena
+  - impACT_leadership
+  - omdena_open_positions
+  - community_manager
+  - project_submission_and_development
+  - worked_with_top_companies
+  - contact_for_questions
+  - ask_collaborator_benefits
+  - ai_research_path_join
+  - search_omdena_local_chapters
+  - Indonesian_organization_collaboration
+  - project_canopy
+  - omdena_project_technologies
+  - technical_writer_role
+  - ai_assessment_global_education_project_duration
+  - amplify_project_impact
+  - German_top_talent_client_collaboration
+  - omdena_collaboration_statistics
+  - omdena_school_location_project
+  - selection_process
+  - sales_manager_position
+  - latest_post_omdena
+  - software_data_engineer
+  - contact_information
+  - omdena_top_talent_earning
+  - submit_project_idea
+  - UK_based_startup_collaboration
+  - omdena_top_talent_program_application
+  - omdena_core_values
+  - omdena_success_stories
+  - omdena_project_certificates
+  - omdena_caidio_project
+  - ask_omdena_works
+  - money_back_guarantee
+  - bottom_up_driven_collaboration
+  - community_partner
+  - marketing_growth_manager_position
+  - omdena_top_talent_projects
+  - omdena_focus
+  - ask_impact
+  - omdena_school_courses
+  - omdena_startup_partners
+  - join_local_chapter_challenge
+  - find_omdena_info
+  - intellectual_property
+  - hiring_fee_discount
+  - AI_startups_precision_farming_event
+  - technical_expertise
+  - ask_data_privacy
+  - become_omdena_top_talent
+  - success_stories
+  - benefits_of_hiring_talents
+  - ask_projects
+  - recent_environment_sustainability_case_study
+  - essential_data_science_course_details
+  - ask_website_info
+  - omdena_dalai_lama_quote
+  - omdena_challenges
+  - focus_on_specific_sdg
+  - ip_rights_for_developed_solutions
+  - omdena_company_culture_goals
+  - universities_partnership_omdena_local_chapters
+  - select_top_ai_engineers
+  - head_of_local_chapters
+  - omdena_school_mission
+  - omdena_career_paths
+  - equity_involvement
+  - omdena_projects
+  - omdena_local_chapters_purpose
+  - WRI_collaboration
+  - investment_by_startups
+  - omdena_history
+  - frequency_updates_case_studies
+  - ask_engage_collaborator
+  - cost_of_engagement
+  - survival_analysis_python_course_application
+  - omdena_real_world_projects
+  - signup_omdena_school_instructor
+  - ai_innovation_challenge
+  - client_testimonials
+  - Swiss_organization_collaboration
+  - understand_omdena_ai_offerings
+  - unique_about_omdenas_ai_model
+  - omdena_energyhawk_project
+  - time_involvement_during_development
+  - request_refund_conditions
+  - omdena_events
+  - Janti_Soeripto_episode_impACT_podcast
+  - assure_partner_satisfaction
+  - top_talent_client_collaboration
+  - project_examples
+  - project_team_size
+  - omdena_school_barrier_removal
+  - omdena_mission
+  - Indian_organization_collaboration
+  - omdena_previous_projects
+  - top_2_percent_vetted_talents_meaning
+  - application_process
+  - test_cases_webinar
+  - omdena_project_challenges
+  - omdena_local_chapters_join
+  - Dr_David_Hanson_episode_impACT_podcast
+  - apply_specific_project
+  - omdena_top_talent_benefits
+  - omdena_top_talent_success_stories
+  - overview_inclusive_insurance_companies_post
+  - product_manager_role
+  - omdena_usaid_recognition
+  - ongoing_projects_by_omdena_partners
+  - omdena_2030_vision
+  - omdena_project_team_collaborators
+  - omdena_iryss_project
+  - industry_experience
+  - content_marketer_position
+  - impACT_podcast_host
+  - successful_deployments
+  - solutions_by_local_chapters
+  - omdena_top_talent_impact
+  - primary_mission
+  - hire_vetted_talents
+  - ask_ai_challenge
+  - hiring_engineers
+  - omdena_career_growth_opportunities
+  - mastering_MLOps_webinar
+  - impact_tech_startups_category_focus
+
+actions:
+  - utter_omdena_project_examples
+  - utter_become_ai_engineer_omdena
+  - utter_omdena_top_talent_program
+  - utter_infrastructure_support_for_projects
+  - utter_cost_of_engagement
+  - utter_contact_for_questions
+  - utter_signup_omdena_school_instructor
+  - utter_simultaneous_student_instructor_omdena_school
+  - utter_post_selection_process
+  - utter_impact_tech_startups_category_focus
+  - utter_omdena_iryss_project
+  - utter_omdena_top_talent_earning
+  - utter_success_stories
+  - utter_submit_local_community_project_ideas
+  - utter_omdena_mentoring_support
+  - utter_omdena_project_challenges
+  - utter_omdena_latest_blog_posts
+  - utter_omdena_startup_partners
+  - utter_omdena_project_certificates
+  - utter_omdena_project_technologies
+  - utter_omdena_community_collaboration
+  - utter_Tshering_Tobgay_episode_impACT_podcast
+  - utter_ongoing_projects_by_omdena_partners
+  - utter_omdena_caidio_project
+  - utter_omdena_project_industries
+  - utter_omdena_local_chapter_collaborator_benefits
+  - utter_omdena_community_benefits
+  - utter_community_development_opportunities
+  - utter_omdena_mycover_project
+  - utter_ai_research_path_join
+  - utter_assure_partner_satisfaction
+  - utter_operational_fee
+  - utter_technical_writer_position
+  - utter_equity_involvement
+  - utter_UK_based_startup_collaboration
+  - utter_testimonials_or_reviews
+  - utter_omdena_ai_innovation_contribution
+  - utter_work_with_top_companies_omdena
+  - utter_omdena_school_case_studies
+  - utter_content_marketer_position
+  - utter_ask_omdena
+  - utter_omdena_local_chapter_past_projects
+  - utter_omdena_newsletter
+  - utter_ask_impact
+  - utter_Indian_organization_collaboration
+  - utter_ask_collaborator_benefits
+  - utter_application_process
+  - utter_skills_development_omdena_local_chapters
+  - utter_contact_information
+  - utter_omdena_top_talent_project_types
+  - utter_general_information
+  - utter_omdena_local_chapters_join
+  - utter_omdena_success_stories
+  - utter_omdena_project_team_collaborators
+  - utter_service_inquiry
+  - utter_client_testimonials
+  - utter_global_presence
+  - utter_marketing_growth_manager_position
+  - utter_omdena_energyhawk_project
+  - utter_ask_participation_assessment
+  - utter_omdena_local_chapters
+  - utter_omdena_reachbots_project
+  - utter_joining_omdena_network
+  - utter_frequency_updates_case_studies
+  - utter_omdena_school_location_project
+  - utter_amplify_project_impact
+  - utter_omdena_local_chapter_lead_growth
+  - utter_omdena_blog_categories_and_search
+  - utter_solutions_by_local_chapters
+  - utter_ai_assessment_global_education_project_duration
+  - utter_search_omdena_local_chapters
+  - utter_ask_engage_collaborator
+  - utter_omdena_team_members
+  - utter_ai_product_development_path
+  - utter_intellectual_property
+  - utter_omdena_local_chapters_purpose
+  - utter_omdena_cognifit_project
+  - utter_omdena_civic_and_business_collaboration
+  - utter_omdena_school_course_difference
+  - utter_technical_expertise
+  - utter_software_data_engineer
+  - utter_vetting_process
+  - utter_success_story_omdena_startup_partner
+  - utter_omdena_news
+  - utter_notable_leaders_impACT_podcast
+  - utter_past_case_studies
+  - utter_hire_vetted_talents
+  - utter_ask_expertise
+  - utter_career_acceleration_omdena
+  - utter_hiring_engineers
+  - utter_ask_omdena_works
+  - utter_find_omdena_info
+  - utter_apply_for_ongoing_projects
+  - utter_omdena_top_talent_program_application
+  - utter_to_listen_impACT_podcast
+  - utter_head_of_local_chapters
+  - utter_community_partner
+  - utter_paid_project_gigs_omdena
+  - utter_develop_ai_portfolio_omdena
+  - utter_ask_get_involved
+  - utter_omdena_projects
+  - utter_applying_at_omdena
+  - utter_omdena_top_talent_project_flexibility
+  - utter_join_local_chapter_challenge
+  - utter_understand_omdena_ai_offerings
+  - utter_data_science_job_market_webinar
+  - utter_project_examples
+  - utter_select_top_ai_engineers
+  - utter_sign_up_for_demo
+  - utter_essential_data_science_course_details
+  - utter_omdena_predator_chatbot_project
+  - utter_computer_vision_models_webinar
+  - utter_product_manager_role
+  - utter_top_2_percent_vetted_talents_meaning
+  - utter_omdena_job_timeline
+  - utter_universities_partnership_omdena_local_chapters
+  - utter_impACT_leadership
+  - utter_Kenya_based_organization_collaboration
+  - utter_omdena_school_mission
+  - utter_omdena_core_values
+  - utter_community_manager
+  - utter_number_of_applications
+  - utter_worked_with_top_companies
+  - utter_past_projects
+  - utter_access_paid_courses_omdena
+  - utter_omdena_real_world_projects
+  - utter_ask_ai_challenge
+  - utter_omdena_dalai_lama_quote
+  - utter_omdena_completed_projects
+  - utter_ask_data_privacy
+  - utter_latest_post_omdena
+  - utter_submit_project_idea
+  - utter_overview_inclusive_insurance_companies_post
+  - utter_primary_mission
+  - utter_test_cases_webinar
+  - utter_build_team
+  - utter_recent_environment_sustainability_case_study
+  - utter_sales_manager_position
+  - utter_local_chapter_challenge_chest_disease_detection
+  - utter_become_omdena_chapter_lead
+  - utter_become_omdena_top_talent
+  - utter_project_duration
+  - utter_types_of_startups
+  - utter_omdena_crop_yield_project
+  - utter_accelerate_innovation_impact
+  - utter_impact_manager
+  - utter_omdena_2030_vision
+  - utter_omdena_career_growth_opportunities
+  - utter_project_submission_and_development
+  - utter_omdena_school_courses
+  - utter_technical_writer_role
+  - utter_AI_startups_precision_farming_event
+  - utter_defining_project_scope
+  - utter_industry_experience
+  - utter_omdena_upskilling_aim
+  - utter_join_omdena
+  - utter_ask_projects
+  - utter_top_talent_client_collaboration
+  - utter_Vishal_Ghote_episode_impACT_podcast
+  - utter_investment_by_startups
+  - utter_omdena_previous_projects
+  - utter_join_omdena_project
+  - utter_project_execution_process
+  - utter_omdena_challenges
+  - utter_omdena_top_talent_success_stories
+  - utter_support_and_resources
+  - utter_request_refund_conditions
+  - utter_mastering_MLOps_webinar
+  - utter_omdena_community_growth
+  - utter_German_startup_collaboration
+  - utter_omdena_top_talent_impact
+  - utter_omdena_top_talent_projects
+  - utter_omdena_career_paths
+  - utter_ongoing_courses_omdena_school
+  - utter_German_top_talent_client_collaboration
+  - utter_ai_innovation_challenge
+  - utter_Dr_David_Hanson_episode_impACT_podcast
+  - utter_omdena_testimonials
+  - utter_omdena_malaria_project
+  - utter_ask_no_ai_experience
+  - utter_support_after_completion
+  - utter_omdena_project_organizations
+  - utter_cost_and_demo_inquiry
+  - utter_unique_about_omdenas_ai_model
+  - utter_omdena_school
+  - utter_survival_analysis_python_course_application
+  - utter_project_canopy
+  - utter_omdena_open_positions
+  - utter_omdena_mission
+  - utter_omdena_history
+  - utter_omdena_school_barrier_removal
+  - utter_ip_rights_for_developed_solutions
+  - utter_benefits_of_hiring_talents
+  - utter_Janti_Soeripto_episode_impACT_podcast
+  - utter_Canadian_startup_collaboration
+  - utter_ask_website_info
+  - utter_impACT_podcast_host
+  - utter_focus_on_specific_sdg
+  - utter_Belgian_startup_collaboration
+  - utter_ask_quality_assurance
+  - utter_successful_deployments
+  - utter_omdena_project_community_benefits
+  - utter_hiring_fee_discount
+  - utter_financial_support_omdena_school_students
+  - utter_bottom_up_driven_collaboration
+  - utter_WRI_collaboration
+  - utter_civil_society_government_collaboration
+  - utter_omdena_top_talent_benefits
+  - utter_omdena_usaid_recognition
+  - utter_money_back_guarantee
+  - utter_difference_local_challenges_ai_innovation
+  - utter_Swiss_organization_collaboration
+  - utter_omdena_collaboration_statistics
+  - utter_omdena_focus
+  - utter_unhcr
+  - utter_omdena_events
+  - utter_Kailash_Satyarthi_episode_impACT_podcast
+  - utter_role_of_omdena_local_ai_teams
+  - utter_upcoming_courses_omdena_school
+  - utter_selection_process
+  - utter_startup_partners
+  - utter_submit_project_ideas
+  - utter_project_team_size
+  - utter_recruitment_fee
+  - utter_time_involvement_during_development
+  - utter_benefits_diverse_teams_omdena
+  - utter_Indonesian_organization_collaboration
+  - utter_omdena_company_culture_goals
+  - utter_apply_specific_project
+  - utter_signup_omdena_school_student
+
+responses:
+  utter_general_information:
+    - text: "The AI Innovation Challenge is designed for medium to high-complexity projects, focusing on data challenges and innovative AI modeling. It involves assembling a team of 50 engineers who work on the project for eight weeks, totaling around 5000 hours of development."
+    - text: "Omdena's talent has experience across various industries, including agriculture, automotive, child safety, disaster management, education, finance, healthcare, and more."
+    - text: "Omdena ensures ethical AI development by following the principle of 4C – collaboration, compassion, consciousness, and curiosity. Diverse and collaborative teams contribute to more ethical AI development."
+    - text: "Omdena's teams are diverse in terms of skills, experiences, and geographic locations. They vet multiple skills through 30,000 yearly applications and 300+ hours of real-world projects, with talent represented from over 75 countries."
+  utter_selection_process:
+    - text: "Omdena has a diverse talent pool from 100+ countries, but it's not specified whether you can choose engineers from a particular country or region for your project."
+    - text: "The Top Talent Teams consist of the top 2% of Omdena talent, selected through a rigorous vetting process. However, the specifics of the vetting process are not outlined."
+    - text: "The terms and conditions for hiring from Omdena are not mentioned."
+    - text: "The selection process for the program involves submitting an application, which is reviewed by the Omdena team. They select candidates based on their skills, experience, and motivation."
+  utter_support_and_resources:
+    - text: "Information about the support and resources provided during the AI Innovation Challenge is not given."
+    - text: "Information about post-project support offered by Omdena is not provided."
+  utter_cost_and_demo_inquiry:
+    - text: "The costs associated with hiring talent through Omdena are not provided."
+    - text: "Yes, you can request a demo to understand how Omdena can help develop your project."
+  utter_project_examples:
+    - text: "Omdena's website lists completed projects, such as "Detecting Forest Wood Fire using IoT Sensor Data" and "Improving Food Security and Crop Yield in Senegal Using Satellite Imagery," among others. Each project overview provides insights into the project's nature, technology used, and implementation country."
+    - text: "Specific examples of the projects worked on by Omdena's top 2% of talent are not available in the given information."
+  utter_joining_omdena_network:
+    - text: "Details on how to join Omdena's network as a professional are not given."
+  utter_omdena_projects:
+    - text: ""
+  utter_omdena_project_team_collaborators:
+    - text: ""
+  utter_omdena_project_challenges:
+    - text: ""
+  utter_omdena_top_talent_projects:
+    - text: ""
+  utter_join_omdena_project:
+    - text: ""
+    - text: ""
+  utter_omdena_project_industries:
+    - text: ""
+  utter_apply_specific_project:
+    - text: ""
+  utter_difference_local_challenges_ai_innovation:
+    - text: ""
+  utter_omdena_project_technologies:
+    - text: ""
+  utter_omdena_project_community_benefits:
+    - text: ""
+  utter_join_omdena:
+    - text: ""
+    - text: "To join Omdena, you can visit their website and apply to become a collaborator."
+  utter_omdena_focus:
+    - text: ""
+  utter_develop_ai_portfolio_omdena:
+    - text: ""
+  utter_omdena_community_benefits:
+    - text: ""
+  utter_omdena_career_paths:
+    - text: ""
+    - text: ""
+  utter_become_omdena_top_talent:
+    - text: ""
+    - text: ""
+  utter_omdena_school_courses:
+    - text: ""
+  utter_omdena_local_chapters_join:
+    - text: ""
+  utter_omdena_project_examples:
+    - text: ""
+  utter_benefits_diverse_teams_omdena:
+    - text: ""
+  utter_access_paid_courses_omdena:
+    - text: ""
+  utter_omdena_mentoring_support:
+    - text: ""
+  utter_omdena_ai_innovation_contribution:
+    - text: ""
+  utter_omdena_success_stories:
+    - text: ""
+  utter_career_acceleration_omdena:
+    - text: ""
+  utter_omdena_job_timeline:
+    - text: ""
+  utter_ai_product_development_path:
+    - text: ""
+  utter_community_development_opportunities:
+    - text: ""
+  utter_become_ai_engineer_omdena:
+    - text: ""
+  utter_ai_research_path_join:
+    - text: ""
+  utter_omdena_top_talent_benefits:
+    - text: ""
+    - text: ""
+  utter_paid_project_gigs_omdena:
+    - text: ""
+  utter_omdena_project_certificates:
+    - text: ""
+  utter_top_2_percent_vetted_talents_meaning:
+    - text: ""
+  utter_omdena_top_talent_project_flexibility:
+    - text: ""
+  utter_work_with_top_companies_omdena:
+    - text: ""
+  utter_omdena_top_talent_project_types:
+    - text: ""
+  utter_omdena_top_talent_earning:
+    - text: ""
+  utter_omdena_top_talent_success_stories:
+    - text: ""
+  utter_omdena_top_talent_impact:
+    - text: ""
+  utter_omdena_top_talent_program_application:
+    - text: ""
+  utter_omdena_local_chapters_purpose:
+    - text: ""
+  utter_join_local_chapter_challenge:
+    - text: ""
+  utter_submit_local_community_project_ideas:
+    - text: ""
+  utter_omdena_local_chapter_collaborator_benefits:
+    - text: ""
+  utter_become_omdena_chapter_lead:
+    - text: ""
+  utter_skills_development_omdena_local_chapters:
+    - text: ""
+  utter_omdena_local_chapter_past_projects:
+    - text: ""
+  utter_search_omdena_local_chapters:
+    - text: ""
+  utter_omdena_local_chapter_lead_growth:
+    - text: ""
+  utter_universities_partnership_omdena_local_chapters:
+    - text: ""
+  utter_omdena_school_mission:
+    - text: ""
+  utter_omdena_school_barrier_removal:
+    - text: ""
+  utter_signup_omdena_school_student:
+    - text: ""
+  utter_omdena_school_case_studies:
+    - text: ""
+  utter_signup_omdena_school_instructor:
+    - text: ""
+  utter_upcoming_courses_omdena_school:
+    - text: ""
+  utter_essential_data_science_course_details:
+    - text: ""
+  utter_survival_analysis_python_course_application:
+    - text: ""
+  utter_ongoing_courses_omdena_school:
+    - text: ""
+  utter_omdena_school_course_difference:
+    - text: ""
+  utter_simultaneous_student_instructor_omdena_school:
+    - text: ""
+  utter_financial_support_omdena_school_students:
+    - text: ""
+  utter_understand_omdena_ai_offerings:
+    - text: ""
+  utter_latest_post_omdena:
+    - text: ""
+  utter_overview_inclusive_insurance_companies_post:
+    - text: ""
+  utter_omdena_blog_categories_and_search:
+    - text: ""
+  utter_impact_tech_startups_category_focus:
+    - text: ""
+  utter_recent_environment_sustainability_case_study:
+    - text: ""
+  utter_ai_assessment_global_education_project_duration:
+    - text: ""
+  utter_local_chapter_challenge_chest_disease_detection:
+    - text: ""
+  utter_success_story_omdena_startup_partner:
+    - text: ""
+  utter_frequency_updates_case_studies:
+    - text: ""
+  utter_impACT_leadership:
+    - text: ""
+  utter_notable_leaders_impACT_podcast:
+    - text: ""
+  utter_impACT_podcast_host:
+    - text: ""
+  utter_to_listen_impACT_podcast:
+    - text: ""
+  utter_omdena_civic_and_business_collaboration:
+    - text: ""
+  utter_Vishal_Ghote_episode_impACT_podcast:
+    - text: ""
+  utter_Janti_Soeripto_episode_impACT_podcast:
+    - text: ""
+  utter_Kailash_Satyarthi_episode_impACT_podcast:
+    - text: ""
+  utter_Dr_David_Hanson_episode_impACT_podcast:
+    - text: ""
+  utter_Tshering_Tobgay_episode_impACT_podcast:
+    - text: ""
+  utter_omdena_events:
+    - text: ""
+  utter_omdena_malaria_project:
+    - text: ""
+  utter_omdena_school_location_project:
+    - text: ""
+  utter_omdena_predator_chatbot_project:
+    - text: ""
+  utter_AI_startups_precision_farming_event:
+    - text: ""
+  utter_omdena_energyhawk_project:
+    - text: ""
+  utter_omdena_crop_yield_project:
+    - text: ""
+  utter_test_cases_webinar:
+    - text: ""
+  utter_data_science_job_market_webinar:
+    - text: ""
+  utter_computer_vision_models_webinar:
+    - text: ""
+  utter_mastering_MLOps_webinar:
+    - text: ""
+  utter_omdena_career_growth_opportunities:
+    - text: ""
+  utter_omdena_real_world_projects:
+    - text: ""
+  utter_omdena_mission:
+    - text: ""
+    - text: ""
+  utter_omdena_usaid_recognition:
+    - text: ""
+  utter_omdena_community_growth:
+    - text: ""
+  utter_omdena_core_values:
+    - text: ""
+  utter_omdena_history:
+    - text: ""
+  utter_omdena_2030_vision:
+    - text: ""
+    - text: ""
+  utter_omdena_community_collaboration:
+    - text: ""
+  utter_omdena_challenges:
+    - text: ""
+  utter_omdena_local_chapters:
+    - text: ""
+  utter_omdena_school:
+    - text: ""
+  utter_omdena_top_talent_program:
+    - text: ""
+  utter_omdena_upskilling_aim:
+    - text: ""
+  utter_omdena_latest_blog_posts:
+    - text: ""
+  utter_omdena_dalai_lama_quote:
+    - text: ""
+  utter_omdena_project_organizations:
+    - text: ""
+  utter_omdena_startup_partners:
+    - text: ""
+  utter_project_canopy:
+    - text: ""
+  utter_omdena_iryss_project:
+    - text: ""
+  utter_omdena_reachbots_project:
+    - text: ""
+  utter_UK_based_startup_collaboration:
+    - text: ""
+  utter_German_startup_collaboration:
+    - text: ""
+  utter_omdena_cognifit_project:
+    - text: ""
+  utter_Belgian_startup_collaboration:
+    - text: ""
+  utter_omdena_mycover_project:
+    - text: ""
+  utter_omdena_caidio_project:
+    - text: ""
+  utter_Canadian_startup_collaboration:
+    - text: ""
+  utter_civil_society_government_collaboration:
+    - text: ""
+  utter_Kenya_based_organization_collaboration:
+    - text: ""
+  utter_Indian_organization_collaboration:
+    - text: ""
+  utter_Swiss_organization_collaboration:
+    - text: ""
+  utter_WRI_collaboration:
+    - text: ""
+  utter_top_talent_client_collaboration:
+    - text: ""
+  utter_Indonesian_organization_collaboration:
+    - text: ""
+  utter_German_top_talent_client_collaboration:
+    - text: ""
+  utter_omdena_completed_projects:
+    - text: ""
+  utter_omdena_collaboration_statistics:
+    - text: ""
+  utter_omdena_open_positions:
+    - text: ""
+  utter_marketing_growth_manager_position:
+    - text: ""
+  utter_content_marketer_position:
+    - text: ""
+  utter_sales_manager_position:
+    - text: ""
+  utter_technical_writer_position:
+    - text: ""
+  utter_omdena_company_culture_goals:
+    - text: ""
+  utter_omdena_testimonials:
+    - text: ""
+  utter_omdena_team_members:
+    - text: ""
+  utter_impact_manager:
+    - text: ""
+  utter_head_of_local_chapters:
+    - text: ""
+  utter_software_data_engineer:
+    - text: ""
+  utter_community_manager:
+    - text: ""
+  utter_omdena_newsletter:
+    - text: ""
+  utter_technical_writer_role:
+    - text: ""
+  utter_product_manager_role:
+    - text: ""
+  utter_applying_at_omdena:
+    - text: ""
+  utter_omdena_news:
+    - text: "You can get the latest information about omdena projects, activities through our website: https://omdena.com/press-news/"
+  utter_ai_innovation_challenge:
+    - text: ""
+    - text: "Omdena contributes to AI innovation challenges by providing a collaborative platform for AI engineers to gather and build solutions to real-world problems."
+  utter_amplify_project_impact:
+    - text: ""
+  utter_submit_project_ideas:
+    - text: ""
+  utter_role_of_omdena_local_ai_teams:
+    - text: ""
+  utter_omdena_previous_projects:
+    - text: ""
+  utter_focus_on_specific_sdg:
+    - text: ""
+  utter_ongoing_projects_by_omdena_partners:
+    - text: ""
+  utter_apply_for_ongoing_projects:
+    - text: ""
+  utter_past_case_studies:
+    - text: ""
+  utter_project_submission_and_development:
+    - text: ""
+  utter_support_after_completion:
+    - text: ""
+  utter_bottom_up_driven_collaboration:
+    - text: ""
+  utter_solutions_by_local_chapters:
+    - text: ""
+  utter_infrastructure_support_for_projects:
+    - text: ""
+  utter_ip_rights_for_developed_solutions:
+    - text: ""
+  utter_time_involvement_during_development:
+    - text: ""
+    - text: ""
+  utter_unique_about_omdenas_ai_model:
+    - text: ""
+  utter_service_inquiry:
+    - text: "Omdena offers AI development services to impact-driven startups. Their services include AI Innovation Challenges, Top Talent Projects, Local Chapter Challenges, and Edge AI solutions for partners across data, IoT, and AI."
+  utter_project_duration:
+    - text: "An Omdena AI development project typically lasts for 8+ weeks or around 5000 hours of AI development time."
+  utter_project_team_size:
+    - text: "The number of AI engineers involved in an Omdena project can vary depending on the program. For AI Innovation Challenges, teams can have up to 50 collaborators. Top Talent Projects involve up to 5 people, and Local Chapter Challenges can have up to 80 collaborators."
+  utter_hiring_engineers:
+    - text: "Yes, you can hire engineers from Omdena for your startup."
+  utter_cost_of_engagement:
+    - text: "The cost of engaging with Omdena for an AI development project varies depending on the program and project scope. Specific pricing details would need to be discussed with Omdena directly."
+  utter_intellectual_property:
+    - text: "Yes, you retain full Intellectual Property rights of the solution developed by Omdena."
+  utter_equity_involvement:
+    - text: "No, Omdena does not take any equity from your startup for their services."
+  utter_past_projects:
+    - text: "Omdena has worked on various past projects, including developing AI models to detect fake news, predicting water scarcity in Africa, and detecting deforestation in the Amazon rainforest."
+    - text: "Omdena has experience in a wide range of industry areas, including but not limited to healthcare, finance, energy, agriculture, and social impact."
+  utter_application_process:
+    - text: "You can apply for the AI development program offered by Omdena on their website."
+  utter_hiring_fee_discount:
+    - text: "There is no available information on whether there is a discount in the hiring fee if you decide to hire an engineer from Omdena. Specific pricing details would need to be discussed with Omdena directly."
+  utter_testimonials_or_reviews:
+    - text: "Yes, there are several testimonials and reviews from past clients of Omdena on their website."
+  utter_types_of_startups:
+    - text: "Omdena has worked with startups across various industries, including healthcare, finance, and agriculture."
+  utter_operational_fee:
+    - text: "The operational fee for the program depends on the program and project scope. Specific pricing details would need to be discussed with Omdena directly."
+  utter_investment_by_startups:
+    - text: "There is no available information on how much investment startups have collectively raised after building AI solutions with Omdena."
+  utter_number_of_applications:
+    - text: "There is no available information on how many applications Omdena has received for the AI engineer position."
+  utter_startup_partners:
+    - text: "Omdena's startup partners include organizations such as the World Bank, the United Nations, and the Red Cross."
+  utter_post_selection_process:
+    - text: "After you're selected for the program, you will work with the Omdena team to define the project scope and goals."
+  utter_defining_project_scope:
+    - text: "The process for defining the project scope with Omdena involves working with their team to identify the problem, data sources, and project goals. They will then develop a plan for data collection, model development, and deployment."
+  utter_contact_information:
+    - text: "You can contact Omdena through their website if you have additional questions about their services or the application process."
+  utter_find_omdena_info:
+    - text: "You can find more information about Omdena's services and projects on their website under the "Services" and "Projects" sections."
+  utter_request_refund_conditions:
+    - text: ""
+  utter_assure_partner_satisfaction:
+    - text: "Omdena assures partner satisfaction through their collaborative approach, rigorous vetting process, and commitment to delivering high-quality AI models and solutions. They aim to address real-world problems and create positive impact through their projects."
+  utter_primary_mission:
+    - text: "Omdena's primary mission is to build AI models and solutions through collaborative efforts with a global network of AI engineers and data scientists. They aim to address real-world problems and create positive impact through their projects."
+  utter_select_top_ai_engineers:
+    - text: "Omdena selects the top 2% of AI engineers from a pool of over 10,000 talent. These top talents are vetted and chosen based on their skills, experience, and expertise. They have a rigorous selection process to ensure the highest quality of talent for their projects."
+  utter_hire_vetted_talents:
+    - text: "To hire Omdena's vetted talents for your project, you can engage with them through Omdena Top Talent. This allows you to work with the top 2% of their talent pool. You can submit your project idea and problem to be solved, and Omdena will help you scope the project and provide a dedicated team of senior engineers."
+  utter_money_back_guarantee:
+    - text: "Omdena offers a money-back guarantee for their projects. If you are not satisfied with the results or the project does not meet your expectations, you can request a full refund under certain conditions."
+  utter_worked_with_top_companies:
+    - text: "Omdena has worked with over 200+ companies including organizations from Y Combinator, Techstars, the UN, and more."
+  utter_industry_experience:
+    - text: "Omdena has successfully worked on various projects across industries such as Agriculture, Automotive, Child Safety, Civil Society, Disaster Management, Education, Environment & Sustainability, Equality & Inclusion, Finance, Food, Gaming, Healthcare, HR, Infrastructure, Insurance, Logistics & Transportation, Manufacturing, Media, Policy, Real Estate, Renewable Energy, Retail, Safety, Security & Justice, and Telecom."
+  utter_technical_expertise:
+    - text: "Some examples of technical expertise provided by Omdena include AI modeling, machine learning, deep learning, natural language processing, computer vision, and data analysis."
+  utter_successful_deployments:
+    - text: "Omdena has successfully managed deployments of AI models and solutions in various projects. Specific examples include classifying rooftops through neural networks to eliminate energy waste, detecting bias in articles through natural language processing, optimizing clean energy supply in Africa, and deploying a pathology detection model in a mobile app."
+  utter_success_stories:
+    - text: "Yes, there are several success stories highlighted on Omdena's website such as the partnership with UK WellnessTech Company GoodBoost to deploy a web app to gamify exercises for MSK Conditions, a partnership with US-Based HealthTech Startup and Omdena Partner Humanity Inc. reaching 100,000 users in their AI-Driven Age Prediction App, and Omdena Startup Partner Zzapp Malaria winning a $5M IBM Watson AI XPrize Competition."
+    - text: "Omdena has had success stories with organizations such as Zzapp Malaria and GoodBoost, where they built AI solutions to help combat malaria and improve water quality, respectively. They've also worked with UNICEF and the UN World Food Program to build AI solutions to help improve the lives of children and communities around the world."
+  utter_vetting_process:
+    - text: "Omdena's unique vetting process involves selecting the top 2% of AI engineers from a pool of over 10,000 talents. They evaluate the skills, experience, and expertise of the candidates to ensure the highest quality of talent for their projects."
+  utter_client_testimonials:
+    - text: "Testimonials from Omdena's clients can be found on their website, with representatives from organizations like ChessX, Dryad Networks, UNICEF, Tech Equalized, BigCodeGen, and ESLO sharing their experiences."
+  utter_benefits_of_hiring_talents:
+    - text: "By hiring Omdena's top 2% talents, you can benefit from their expertise, skills, and experience in AI modeling and solution development. They have a global network of talented professionals who can contribute to your project and help you achieve your goals."
+  utter_project_execution_process:
+    - text: "The project execution process with Omdena involves several steps: project scoping, where you submit your project idea and problem to be solved; dedicated team formation, where the best team for your project is built; project execution, where the project starts under the supervision of an experienced project manager; and an optional step, hire in-house, where with a 1-week notice, you can stop the project or hire the engineers full-time in your team."
+  utter_submit_project_idea:
+    - text: "To submit your project idea to Omdena, you can go to their website and click on "request a demo" or directly email them to discuss your project needs."
+  utter_recruitment_fee:
+    - text: "Yes, there is a one-off recruitment fee for each successful new hire via Omdena."
+  utter_sign_up_for_demo:
+    - text: "To sign up for a demo with Omdena, you can visit their website and fill in the "Request a demo" form."
+  utter_contact_for_questions:
+    - text: "For any further questions, you can contact Fabio Fulci, VP Impact Development at Omdena, via email."
+  utter_community_partner:
+    - text: "Omdena's community partners include organizations such as the United Nations, the World Health Organization, and the World Bank."
+  utter_unhcr:
+    - text: "Omdena's project with the UNHCR involves building AI solutions to help refugees and displaced people."
+  utter_global_presence:
+    - text: "Omdena's solutions are implemented across the world, with over 70 countries having trusted them to build their AI models."
+  utter_accelerate_innovation_impact:
+    - text: "Omdena accelerates innovation and impact with vetted technical top talent by providing a collaborative platform for AI engineers to work together and build solutions to real-world problems."
+  utter_build_team:
+    - text: "To build a team with Omdena's data scientists, AI engineers, and developers, you can visit their website and apply to become a collaborator."
+  utter_ask_omdena:
+    - text: "Omdena is an innovation platform where AI experts from around the world collaborate on building solutions for positive impact."
+  utter_ask_ai_challenge:
+    - text: "Omdena challenges follow four key principles: bottom-up collaboration, transparent communication, active participation, and asking questions. In an Omdena challenge, there is no top-down structure, and collaborators are expected to show self-drive and self-management capabilities to succeed."
+  utter_ask_collaborator_benefits:
+    - text: "Omdena offers several benefits to its collaborators, including the opportunity to work on real-world problems, access to data, diverse opinions, and the chance to drive true innovation."
+  utter_ask_engage_collaborator:
+    - text: "To engage as a collaborator, you can reach out to a Task Leader or Product Owner and offer to pitch in. If you need further guidance, you can always ask for help."
+  utter_ask_no_ai_experience:
+    - text: "Omdena welcomes collaborators with all levels of experience, including those who are new to AI. The platform provides a learning environment and offers opportunities for skill development."
+  utter_ask_participation_assessment:
+    - text: "Your level of participation will be assessed each week based on your collaboration via coding, data wrangling, and taking a leadership role in the challenge. Active participation is important, and those who do not actively participate may be asked to leave the project."
+  utter_ask_website_info:
+    - text: "You can visit the Omdena website, specifically the FAQ section, for more information about the platform and how it works."
+  utter_ask_omdena_works:
+    - text: "Omdena works by bringing together a global community of data scientists, machine learning engineers, and domain experts to work on AI projects for social good. The community collaborates with mission-driven organizations to build AI solutions that address real-world problems."
+  utter_ask_projects:
+    - text: "Omdena works on a wide range of projects, from tackling energy shortages in Nigeria to improving case management for NGOs. The projects are focused on using AI for social good and are designed to have a positive impact on people's lives."
+  utter_ask_data_privacy:
+    - text: "Omdena takes data privacy and confidentiality very seriously. The organization has strict policies and procedures in place to ensure that all data is handled securely and in compliance with applicable laws and regulations."
+  utter_ask_get_involved:
+    - text: "If your organization is interested in working with Omdena, you can reach out to the organization through their website. Omdena is always looking for mission-driven organizations to collaborate with on AI projects for social good."
+  utter_ask_expertise:
+    - text: "Omdena has a global community of data scientists, machine learning engineers, and domain experts with expertise in a wide range of areas. This expertise allows Omdena to work on a wide range of projects and to bring together the right people to tackle each project."
+  utter_ask_quality_assurance:
+    - text: "Omdena has a rigorous quality assurance process in place to ensure that all work meets the highest standards. This process includes peer review, code review, and testing to ensure that all work is accurate, reliable, and effective."
+  utter_ask_impact:
+    - text: "Omdena's work has a positive impact on people's lives around the world. The organization has worked on projects that have helped to improve access to clean water, reduce energy poverty, and improve case management for NGOs, among other things."
